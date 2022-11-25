@@ -26,3 +26,18 @@
 
 # 数据集
 - [OULU-NPU Database](https://sites.google.com/site/oulunpudatabase/)
+
+- BA硬化
+  - 在Levenberg-Marquardt（LM）优化方法中，为充分利用矩阵的稀疏性、减少消元过程的依赖关系、加速normal euqation的求解：
+    - 分析dense schur的求解步骤
+    - 基于源码分解dense schur的计算过程
+- 数值计算库
+  - 在最优化问题领域，可根据一系列待优化变量和约束条件构造计算模型，并构建目标函数。为了寻找最优解，并对结果的精度进行度量，构建对应规模的数值计算方法
+    - 信赖域方法
+      - LM
+      - Dogleg
+    - 线搜索方法
+      - STEEPEST_DESCENT
+      - NONLINEAR_CONJUGATE_GRADIENT
+      - BFGS
+      - LBFGS
